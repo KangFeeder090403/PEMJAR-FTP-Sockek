@@ -1,1 +1,1 @@
-# PEMJAR-FTP-Sockek
+# PEMJAR-FTP-Socket
