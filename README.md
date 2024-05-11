@@ -11,6 +11,7 @@ Program ini merupakan sebuah sistem File Transfer Protokol (FTP) sederharna yang
 
 
 # **code client-side**
+```ruby
    import socket
 import sys
 import os
@@ -227,10 +228,11 @@ while True:
         break
     else:
         print("Command not recognized; please try again")
-
+```
 
 # **code server-side**
-    import socket
+```ruby
+import socket
 import sys
 import time
 import os
@@ -367,6 +369,7 @@ while True:
     elif data == "byebye":
         quit()
     data = None
+```
 
 # **1. Server**
 Server berjalan dengan host `(localhost)` dan port `(12345)` dan menerima koneksi dari client secara terus menerus. Setelah dijalankan server menunggu koneksi dari client dan dapat menerima perintah dari client dan melakukan aksi opererasi sesuai dengan permintaan.
